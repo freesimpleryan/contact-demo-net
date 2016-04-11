@@ -21,7 +21,7 @@ namespace NET_Server_Demo.Services
                     {
                         new Contact
                         {
-                            Id = 1, Name = "Glenn Block"
+                            Id = 1, FirstName = "Glenn", LastName = "Test", 
                         },
                         new Contact
                         {
@@ -42,10 +42,7 @@ namespace NET_Server_Demo.Services
             {
                 try
                 {
-                    var currentData = ((Contact[])ctx.Cache[CacheKey]).ToList();
-                    currentData.Add(contact);
-                    ctx.Cache[CacheKey] = currentData.ToArray();
-
+                    DBProxy.saveContact(contact);
                     return true;
                 }
                 catch (Exception ex)

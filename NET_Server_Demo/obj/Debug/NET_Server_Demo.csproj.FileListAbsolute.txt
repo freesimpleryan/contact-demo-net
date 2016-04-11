@@ -62,3 +62,5 @@ C:\Users\Ryan\Documents\Programming\demos\NET_Server_Demo\NET_Server_Demo\bin\zh
 C:\Users\Ryan\Documents\Programming\demos\NET_Server_Demo\NET_Server_Demo\obj\Debug\NET_Server_Demo.csprojResolveAssemblyReference.cache
 C:\Users\Ryan\Documents\Programming\demos\NET_Server_Demo\NET_Server_Demo\obj\Debug\NET_Server_Demo.dll
 C:\Users\Ryan\Documents\Programming\demos\NET_Server_Demo\NET_Server_Demo\obj\Debug\NET_Server_Demo.pdb
+C:\Users\Ryan\Documents\Programming\demos\NET_Server_Demo\NET_Server_Demo\bin\EntityFramework.SqlServer.dll
+C:\Users\Ryan\Documents\Programming\demos\NET_Server_Demo\NET_Server_Demo\bin\EntityFramework.SqlServer.xml

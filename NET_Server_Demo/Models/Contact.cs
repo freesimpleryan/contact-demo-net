@@ -7,8 +7,10 @@ namespace NET_Server_Demo.Models
 {
     public class Contact
     {
-        public int Id { get; set; }
-
-        public string Name { get; set; }
+        public String Id { get; set; }
+        public String FirstName { get; set; }
+        public String LastName { get; set; }
+        public String PhoneNumber { get; set; }
+        public String Email { get; set; }
     }
 }
