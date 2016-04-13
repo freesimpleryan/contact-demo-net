@@ -14,7 +14,7 @@ namespace NET_Server_Demo.Services
     {
         //private static string CON_STRING = "Data Source=call-notes-dev.database.windows.net;Initial Catalog=CALL_NOTES_DEV;User ID=calldev;Password=H7rpaBxJbBW2FcWF;";
         private static string CON_STRING;
-        private static string FILE_PATH = "..\\..\\..\\local\\sql_con.txt";
+        private static string FILE_PATH = "C:\\local\\sql_con.txt";
 
         private static SqlConnection SQL;
 
