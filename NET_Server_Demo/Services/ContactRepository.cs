@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using NET_Server_Demo.Models;
 
+
 namespace NET_Server_Demo.Services
 {
     public class ContactRepository
@@ -11,6 +12,7 @@ namespace NET_Server_Demo.Services
         private string CacheKey = "ContactStore";
         public ContactRepository()
         {
+            /*
             var ctx = HttpContext.Current;
 
             if (ctx != null)
@@ -32,6 +34,7 @@ namespace NET_Server_Demo.Services
                     ctx.Cache[CacheKey] = contacts;
                 }
             }
+              */
         }
 
         public bool SaveContact(Contact contact)
@@ -57,21 +60,7 @@ namespace NET_Server_Demo.Services
 
         public Contact[] GetAllContacts()
         {
-            var ctx = HttpContext.Current;
-
-            if (ctx != null)
-            {
-                return (Contact[])ctx.Cache[CacheKey];
-            }
-
-            return new Contact[]
-                {
-                    new Contact
-                    {
-                        Id = 0,
-                        Name = "Placeholder"
-                    }
-                };
+            return DBProxy.getAllContacts();
         }
     }
 }

@@ -25,6 +25,9 @@ namespace NET_Server_Demo.Controllers
 
         public HttpResponseMessage Post(Contact contact)
         {
+            if (contact.Id == null || contact.Id == "") {
+                contact.Id = Guid.NewGuid().ToString();
+            }
             this.contactRepository.SaveContact(contact);
 
             var response = Request.CreateResponse<Contact>(System.Net.HttpStatusCode.Created, contact);
