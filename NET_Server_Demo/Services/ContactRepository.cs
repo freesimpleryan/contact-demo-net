@@ -9,32 +9,8 @@ namespace NET_Server_Demo.Services
 {
     public class ContactRepository
     {
-        private string CacheKey = "ContactStore";
         public ContactRepository()
         {
-            /*
-            var ctx = HttpContext.Current;
-
-            if (ctx != null)
-            {
-                if (ctx.Cache[CacheKey] == null)
-                {
-                    var contacts = new Contact[]
-                    {
-                        new Contact
-                        {
-                            Id = 1, FirstName = "Glenn", LastName = "Test", 
-                        },
-                        new Contact
-                        {
-                            Id = 2, Name = "Dan Roth"
-                        }
-                    };
-
-                    ctx.Cache[CacheKey] = contacts;
-                }
-            }
-              */
         }
 
         public bool SaveContact(Contact contact)
