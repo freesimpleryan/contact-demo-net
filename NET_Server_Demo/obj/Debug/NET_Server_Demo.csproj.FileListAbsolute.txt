@@ -2,6 +2,7 @@ C:\Users\Ryan\Documents\Programming\demos\NET_Server_Demo\NET_Server_Demo\bin\NE
 C:\Users\Ryan\Documents\Programming\demos\NET_Server_Demo\NET_Server_Demo\bin\NET_Server_Demo.pdb
 C:\Users\Ryan\Documents\Programming\demos\NET_Server_Demo\NET_Server_Demo\bin\Antlr3.Runtime.dll
 C:\Users\Ryan\Documents\Programming\demos\NET_Server_Demo\NET_Server_Demo\bin\EntityFramework.dll
+C:\Users\Ryan\Documents\Programming\demos\NET_Server_Demo\NET_Server_Demo\bin\EntityFramework.SqlServer.dll
 C:\Users\Ryan\Documents\Programming\demos\NET_Server_Demo\NET_Server_Demo\bin\Microsoft.Data.Edm.dll
 C:\Users\Ryan\Documents\Programming\demos\NET_Server_Demo\NET_Server_Demo\bin\Microsoft.Data.OData.dll
 C:\Users\Ryan\Documents\Programming\demos\NET_Server_Demo\NET_Server_Demo\bin\Microsoft.Web.Infrastructure.dll
@@ -20,6 +21,7 @@ C:\Users\Ryan\Documents\Programming\demos\NET_Server_Demo\NET_Server_Demo\bin\Sy
 C:\Users\Ryan\Documents\Programming\demos\NET_Server_Demo\NET_Server_Demo\bin\System.Web.WebPages.Razor.dll
 C:\Users\Ryan\Documents\Programming\demos\NET_Server_Demo\NET_Server_Demo\bin\WebGrease.dll
 C:\Users\Ryan\Documents\Programming\demos\NET_Server_Demo\NET_Server_Demo\bin\EntityFramework.xml
+C:\Users\Ryan\Documents\Programming\demos\NET_Server_Demo\NET_Server_Demo\bin\EntityFramework.SqlServer.xml
 C:\Users\Ryan\Documents\Programming\demos\NET_Server_Demo\NET_Server_Demo\bin\Newtonsoft.Json.xml
 C:\Users\Ryan\Documents\Programming\demos\NET_Server_Demo\NET_Server_Demo\bin\System.Web.Helpers.xml
 C:\Users\Ryan\Documents\Programming\demos\NET_Server_Demo\NET_Server_Demo\bin\System.Web.Mvc.xml
@@ -59,8 +61,5 @@ C:\Users\Ryan\Documents\Programming\demos\NET_Server_Demo\NET_Server_Demo\bin\ko
 C:\Users\Ryan\Documents\Programming\demos\NET_Server_Demo\NET_Server_Demo\bin\ru\System.Spatial.resources.dll
 C:\Users\Ryan\Documents\Programming\demos\NET_Server_Demo\NET_Server_Demo\bin\zh-Hans\System.Spatial.resources.dll
 C:\Users\Ryan\Documents\Programming\demos\NET_Server_Demo\NET_Server_Demo\bin\zh-Hant\System.Spatial.resources.dll
-C:\Users\Ryan\Documents\Programming\demos\NET_Server_Demo\NET_Server_Demo\obj\Debug\NET_Server_Demo.csprojResolveAssemblyReference.cache
 C:\Users\Ryan\Documents\Programming\demos\NET_Server_Demo\NET_Server_Demo\obj\Debug\NET_Server_Demo.dll
 C:\Users\Ryan\Documents\Programming\demos\NET_Server_Demo\NET_Server_Demo\obj\Debug\NET_Server_Demo.pdb
-C:\Users\Ryan\Documents\Programming\demos\NET_Server_Demo\NET_Server_Demo\bin\EntityFramework.SqlServer.dll
-C:\Users\Ryan\Documents\Programming\demos\NET_Server_Demo\NET_Server_Demo\bin\EntityFramework.SqlServer.xml

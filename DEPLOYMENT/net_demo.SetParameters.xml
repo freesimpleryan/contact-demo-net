@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <setParameter name="IIS Web Application Name" value="Dev-Site" />
+  <setParameter name="DefaultConnection-Web.config Connection String" value="Data Source=(LocalDb)\v11.0;Initial Catalog=aspnet-NET_Server_Demo-20160410182307;Integrated Security=SSPI;AttachDBFilename=|DataDirectory|\aspnet-NET_Server_Demo-20160410182307.mdf" />
+  <setParameter name="CALL_NOTES_DEV_Entities-Web.config Connection String" value="metadata=res://*/CallNotes.csdl|res://*/CallNotes.ssdl|res://*/CallNotes.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=call-notes-dev.database.windows.net;initial catalog=CALL_NOTES_DEV;user id=calldev;MultipleActiveResultSets=True;App=EntityFramework&quot;" />
+  <setParameter name="CALL_NOTES_DEVEntities-Web.config Connection String" value="metadata=res://*/Models.User.csdl|res://*/Models.User.ssdl|res://*/Models.User.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=call-notes-dev.database.windows.net;initial catalog=CALL_NOTES_DEV;user id=calldev;multipleactiveresultsets=True;application name=EntityFramework&quot;" />
+  <setParameter name="CALL_NOTES_DEV-Web.config Connection String" value="metadata=res://*/Models.Note.csdl|res://*/Models.Note.ssdl|res://*/Models.Note.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=call-notes-dev.database.windows.net;initial catalog=CALL_NOTES_DEV;user id=calldev;multipleactiveresultsets=True;application name=EntityFramework&quot;" />
+</parameters>
